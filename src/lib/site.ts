@@ -1,5 +1,5 @@
 /** Production URL — canonical domain on Vercel. */
-export const PRODUCTION_URL = "https://business-14-salong-magnifique.vercel.app";
+export const PRODUCTION_URL = "https://salong-magnifique.vercel.app";
 
 const DEV_URL = "http://localhost:3014";
 

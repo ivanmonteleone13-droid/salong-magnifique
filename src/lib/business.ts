@@ -17,6 +17,7 @@ export const business = {
   bookingUrl: "https://www.bokadirekt.se/places/salong-magnifique-56745",
   bookingLabel: "Boka på Bokadirekt",
   websiteUrl: "https://salongmagnifique.com" as string | null,
+  logoImage: "/images/logo.jpg" as string | null,
   heroImage: "/images/hero.jpg",
   aboutImage: "/images/gallery-2.jpg",
   facebookUrl: null as string | null,
@@ -77,7 +78,7 @@ export const business = {
       icon: "✨",
       description: "Fransförlängning hos Salong Magnifique — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 1100,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -86,7 +87,7 @@ export const business = {
       icon: "💅",
       description: "Gelénaglar hos Salong Magnifique — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 500,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -95,7 +96,7 @@ export const business = {
       icon: "💫",
       description: "Lashlift hos Salong Magnifique — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 1200,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -104,7 +105,7 @@ export const business = {
       icon: "💆",
       description: "Klassisk massage hos Salong Magnifique — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 800,
       note: "Kontakta oss för aktuella priser.",
     },
     {
@@ -113,7 +114,7 @@ export const business = {
       icon: "🧖",
       description: "Ansiktsbehandling hos Salong Magnifique — noggrant utfört med premiumprodukter och personlig service.",
       duration: "30–90 min",
-      priceFrom: null,
+      priceFrom: 850,
       note: "Kontakta oss för aktuella priser.",
     },
   ],
